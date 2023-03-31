@@ -868,9 +868,7 @@ main {
 					background: #555;
 				}
 			}
-
-
-
+			
 			.product__card {
 				width: 260px;
 				height: 350px;
@@ -1162,6 +1160,16 @@ main {
 	}
 
 	.best__selling__section {
+		.best__selling__subtitle {
+			h2 {
+				font-size: min(36px, max(18px + 2vw));
+				line-height: 48px;
+				font-family: "inter-bold";
+				letter-spacing: 0.04em;
+				color: $black;
+				margin-top: 24px;
+			}
+		}
 		.best__selling__products {
 			display: flex;
 			gap: 16px;
